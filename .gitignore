@@ -1,0 +1,27 @@
+# Scripts
+*.sh
+
+# dotenvx
+.env.keys
+.env.local
+.env.*.local
+
+#system files
+.DS_Store
+
+#Xcode files
+*.mode1
+*.mode1v3
+*.mode2v3
+*.perspective
+*.perspectivev3
+*.pbxuser
+*.xcworkspace
+xcuserdata
+
+#swiftlint configuration
+.swiftlint.yml
+
+# dotenv environment variables file
+.env
+
