@@ -25,6 +25,4 @@ struct Question: Identifiable, Decodable, Hashable {
     let description: String
     let difficulty: QuestionDifficulty
     let options: [QuestionOption]
-    
-    var chosenOption: QuestionOption?
 }

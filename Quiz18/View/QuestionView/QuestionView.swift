@@ -4,6 +4,7 @@ import Combine
 struct QuestionView: View {
     @EnvironmentObject var router: Router
     @State var question: Question
+    @State private var selectedOption: Question.QuestionOption?
     @State var timeRemaining: Int = 18
     @State private var isTimerExpired = false
 
@@ -24,13 +25,13 @@ struct QuestionView: View {
             
             VStack(spacing: Constants.buttonSpacing) {
                 HStack(spacing: Constants.buttonSpacing) {
-                    QuestionButton(for: $question, option: question.options[0])
-                    QuestionButton(for: $question, option: question.options[1])
+                    QuestionButton(for: $question, option: question.options[0], chosenOption: $selectedOption)
+                    QuestionButton(for: $question, option: question.options[1], chosenOption: $selectedOption)
                 }
                 
                 HStack(spacing: Constants.buttonSpacing) {
-                    QuestionButton(for: $question, option: question.options[2])
-                    QuestionButton(for: $question, option: question.options[3])
+                    QuestionButton(for: $question, option: question.options[2], chosenOption: $selectedOption)
+                    QuestionButton(for: $question, option: question.options[3], chosenOption: $selectedOption)
                 }
                 
             }
@@ -44,7 +45,7 @@ struct QuestionView: View {
                 return
             }
             
-            guard question.chosenOption == nil else {
+            guard selectedOption == nil else {
                 timer.upstream.connect().cancel()
                 return
             }

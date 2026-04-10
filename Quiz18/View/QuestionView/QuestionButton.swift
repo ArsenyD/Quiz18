@@ -3,6 +3,7 @@ import SwiftUI
 struct QuestionButton: View {
     @EnvironmentObject private var router: Router
     @Binding var question: Question
+    @Binding var selectedOption: Question.QuestionOption?
     var option: Question.QuestionOption
     
     var body: some View {
@@ -19,9 +20,9 @@ struct QuestionButton: View {
     }
     
     func chooseOption() {
-        guard question.chosenOption == nil else { return }
+        guard selectedOption == nil else { return }
         
-        question.chosenOption = option
+        selectedOption = option
         
         Task {
             if option.isCorrect {
@@ -35,7 +36,7 @@ struct QuestionButton: View {
     }
     
     func calculateColor() -> Color {
-        guard let chosen = question.chosenOption else {
+        guard let selectedOption else {
             return .purple
         }
         
@@ -43,15 +44,16 @@ struct QuestionButton: View {
             return .green
         }
         
-        if chosen.description == option.description {
-            return chosen.isCorrect ? .green : .red
+        if selectedOption.description == option.description {
+            return selectedOption.isCorrect ? .green : .red
         }
         
         return .purple.opacity(0.4)
     }
     
-    init(for question: Binding<Question>, option: Question.QuestionOption) {
+    init(for question: Binding<Question>, option: Question.QuestionOption, chosenOption: Binding<Question.QuestionOption?>) {
         self._question = question
+        self._selectedOption = chosenOption
         self.option = option
     }
 }
