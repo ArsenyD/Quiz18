@@ -1,25 +1,16 @@
 import Foundation
-import Combine
 
-struct Resource {
-    var resourceName: String
-    var resourceExtension: String
-}
-
-class ResourceHandler: ObservableObject {
-    static let questionsResource = Resource(resourceName: "Questions", resourceExtension: "json")
-    static let gameHistoryResource = Resource(resourceName: "GameHistory", resourceExtension: "json")
-    
+final class ResourceHandler {
     // MARK: Public Interface
+    /// Loads resource with specified name from either the documents directory or from the bundle.
     public func loadResource<T: Decodable>(
         ofType type: T.Type,
-        from resource: String,
-        withExtension fileExtension: String = "json"
+        from resource: Resource
     ) -> T? {
-        if let document = loadResourceFromDocumentDirectory(ofType: type, from: resource, withExtension: fileExtension) {
+        if let document = loadResourceFromDocumentDirectory(ofType: type, from: resource.name, withExtension: resource.fileExtension) {
             return document
         } else {
-            if let resourceFromBundle = loadResourceFromBundle(ofType: type, from: resource, withExtension: fileExtension) {
+            if let resourceFromBundle = loadResourceFromBundle(ofType: type, from: resource.name, withExtension: resource.fileExtension) {
                 return resourceFromBundle
             } else {
                 return nil
@@ -27,25 +18,25 @@ class ResourceHandler: ObservableObject {
         }
     }
     
+    /// Saves an array of data to the documents directory. If the resource with the specified name already exists the new data is appended to the end of the document.
     public func saveResource<T: Codable>(
-        _ newData: T,
-        to resource: String,
-        withExtension fileExtension: String = "json"
+        _ newData: [T],
+        to resource: Resource,
     ) {
         var data: [T] = []
         
-        if let existingData = loadResourceFromDocumentDirectory(ofType: [T].self, from: resource, withExtension: fileExtension) {
+        if let existingData = loadResourceFromDocumentDirectory(ofType: [T].self, from: resource.name, withExtension: resource.fileExtension) {
             data.append(contentsOf: existingData)
         }
         
-        data.append(newData)
+        data.append(contentsOf: newData)
         
         do {
             let encoded = try JSONEncoder().encode(data)
-            let url = documentsDirectoryURL(forResource: resource, withExtension: fileExtension)
+            let url = documentsDirectoryURL(forResource: resource.name, withExtension: resource.fileExtension)
             try encoded.write(to: url, options: .atomic)
         } catch {
-            fatalError("Unable to save resource to \(resource).\(fileExtension)")
+            fatalError("Unable to save resource to \(resource.name).\(resource.fileExtension)")
         }
     }
     

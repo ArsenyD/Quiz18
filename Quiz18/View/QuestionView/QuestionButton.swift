@@ -1,15 +1,14 @@
 import SwiftUI
 
 struct QuestionButton: View {
-    @EnvironmentObject private var router: Router
-    @Binding var question: Question
     @Binding var selectedOption: Question.QuestionOption?
     var option: Question.QuestionOption
+    var onPressAction: () -> Void
     
     var body: some View {
         Button(option.description) {
             withAnimation(.bouncy) {
-                chooseOption()
+                selectOption()
             }
         }
         .frame(height: 50)
@@ -19,23 +18,15 @@ struct QuestionButton: View {
         .bold()
     }
     
-    func chooseOption() {
+    private func selectOption() {
         guard selectedOption == nil else { return }
         
         selectedOption = option
         
-        Task {
-            if option.isCorrect {
-                try? await Task.sleep(nanoseconds: 0_500_000_000)
-                router.navigateToNextQuestion()
-            } else {
-                try? await Task.sleep(nanoseconds: 1_000_000_000)
-                router.endGame()
-            }
-        }
+        onPressAction()
     }
     
-    func calculateColor() -> Color {
+    private func calculateColor() -> Color {
         guard let selectedOption else {
             return .purple
         }
@@ -51,9 +42,9 @@ struct QuestionButton: View {
         return .purple.opacity(0.4)
     }
     
-    init(for question: Binding<Question>, option: Question.QuestionOption, chosenOption: Binding<Question.QuestionOption?>) {
-        self._question = question
-        self._selectedOption = chosenOption
+    init(for option: Question.QuestionOption, selectedOption: Binding<Question.QuestionOption?>, _ onPressAction: @escaping () -> Void) {
         self.option = option
+        self.onPressAction = onPressAction
+        self._selectedOption = selectedOption
     }
 }

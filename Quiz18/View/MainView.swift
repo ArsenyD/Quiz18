@@ -2,7 +2,8 @@ import SwiftUI
 
 struct MainView: View {
     @StateObject var router = Router()
-    @StateObject var resourceHandler = ResourceHandler()
+    @StateObject var gameEngine = GameEngine()
+    let resourceHandler = ResourceHandler()
     
     var body: some View {
         NavigationStack(path: $router.path) {
@@ -27,6 +28,7 @@ struct MainView: View {
                 QuestionView(question: question)
                     .navigationBarBackButtonHidden(true)
                     .environmentObject(router)
+                    .environmentObject(gameEngine)
             }
             .navigationDestination(for: [Game].self) { games in
                 GameHistoryView(games: games)
@@ -35,34 +37,24 @@ struct MainView: View {
                 GameResultView(for: game)
                     .navigationBarBackButtonHidden(true)
                     .environmentObject(router)
-                    .environmentObject(resourceHandler)
+                    .environmentObject(gameEngine)
             }
         }
     }
     
-    func startGame() {
-        guard let questions = resourceHandler.loadResource(ofType: [Question].self, from: ResourceHandler.questionsResource.resourceName) else {
-            fatalError("Unable to load questions resource.")
-        }
-        
-        let easy = questions.filter { $0.difficulty == .easy }.shuffled().prefix(5)
-        let medium = questions.filter { $0.difficulty == .medium }.shuffled().prefix(5)
-        let hard = questions.filter { $0.difficulty == .hard }.shuffled().prefix(5)
-        let hardcore = questions.filter { $0.difficulty == .hardcore }.shuffled().prefix(3)
-        
-        let preparedQuestions = Array(easy + medium + hard + hardcore)
-        
-        router.prepareGame(with: preparedQuestions)
+    private func startGame() {
+        let firstQuestion = gameEngine.prepareGame()
+        router.startGame(with: firstQuestion)
     }
     
-    func showGameHistory() {
-        var gameHistory: [Game] = []
+    private func showGameHistory() {
+        var games: [Game] = []
         
-        if let loadedGames = resourceHandler.loadResource(ofType: [Game].self, from: ResourceHandler.gameHistoryResource.resourceName) {
-            gameHistory = loadedGames
+        if let loadedGames = resourceHandler.loadResource(ofType: [Game].self, from: Resource.gameHistory) {
+            games = loadedGames
         }
         
-        router.prepareGameHistory(with: gameHistory)
+        router.showGameHistory(games)
     }
 }
 

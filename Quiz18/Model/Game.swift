@@ -9,4 +9,9 @@ struct Game: Identifiable, Hashable, Codable {
         case date
         case rightAnswersAmount
     }
+    
+    init(date: Date = .now, rightAnswersAmount: Int) {
+        self.date = date
+        self.rightAnswersAmount = rightAnswersAmount
+    }
 }

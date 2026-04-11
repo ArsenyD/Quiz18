@@ -3,6 +3,7 @@ import Combine
 
 struct QuestionView: View {
     @EnvironmentObject var router: Router
+    @EnvironmentObject var gameEngine: GameEngine
     @State var question: Question
     @State private var selectedOption: Question.QuestionOption?
     @State var timeRemaining: Int = 18
@@ -15,6 +16,11 @@ struct QuestionView: View {
         static let verticalSpacing: CGFloat = 50
     }
     
+    let columns = [
+        GridItem(.flexible(), spacing: Constants.buttonSpacing),
+        GridItem(.flexible(), spacing: Constants.buttonSpacing)
+    ]
+    
     var body: some View {
         VStack(spacing: Constants.verticalSpacing) {
             Text(question.description)
@@ -23,20 +29,14 @@ struct QuestionView: View {
             
             QuestionTimerView(timeRemaining: timeRemaining)
             
-            VStack(spacing: Constants.buttonSpacing) {
-                HStack(spacing: Constants.buttonSpacing) {
-                    QuestionButton(for: $question, option: question.options[0], chosenOption: $selectedOption)
-                    QuestionButton(for: $question, option: question.options[1], chosenOption: $selectedOption)
+            LazyVGrid(columns: columns, spacing: Constants.buttonSpacing) {
+                ForEach(question.options) { option in
+                    QuestionButton(for: option, selectedOption: $selectedOption) {
+                        questionButtonAction()
+                    }
+                    .disabled(timeRemaining == 0)
                 }
-                
-                HStack(spacing: Constants.buttonSpacing) {
-                    QuestionButton(for: $question, option: question.options[2], chosenOption: $selectedOption)
-                    QuestionButton(for: $question, option: question.options[3], chosenOption: $selectedOption)
-                }
-                
             }
-            .disabled(timeRemaining == 0)
-            .padding([.bottom], Constants.buttonSpacing)
         }
         .onReceive(timer) { elapsed in
             guard timeRemaining > 0  else {
@@ -54,8 +54,36 @@ struct QuestionView: View {
         }
         .onChange(of: isTimerExpired) { isTimerExpired in
             if isTimerExpired {
-                router.endGame()
+                endGame()
             }
         }
+    }
+    
+    private func questionButtonAction() {
+        guard let selectedOption else { return }
+        
+        Task {
+            if selectedOption.isCorrect {
+                try? await Task.sleep(nanoseconds: 0_500_000_000)
+                nextQuestion()
+            } else {
+                try? await Task.sleep(nanoseconds: 1_000_000_000)
+                endGame()
+            }
+        }
+    }
+    
+    private func nextQuestion() {
+        guard let nextQuestion = gameEngine.nextQuestion() else {
+            endGame()
+            return
+        }
+        
+        router.nextQuestion(nextQuestion)
+    }
+    
+    private func endGame() {
+        let game = gameEngine.endGame()
+        router.endGame(game)
     }
 }
