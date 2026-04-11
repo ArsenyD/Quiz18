@@ -2,8 +2,8 @@ import Foundation
 import Combine
 
 final class GameEngine: ObservableObject {
-    @Published private var gameQuestions: [Question] = []
-    @Published private var currentQuestionIndex: Int = 0
+    private var gameQuestions: [Question] = []
+    private var currentQuestionIndex: Int = 0
     
     private lazy var resourceHandler = ResourceHandler()
     
