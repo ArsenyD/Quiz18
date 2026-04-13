@@ -1,0 +1,403 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/dcf034f4c76eba4a863e6edbd9bbde46/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/df0703f0487d09abc1b5a20e5b1771bd/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/e78911bf0defc5bc38f60d4bdd287000/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/027d8f0a5ef7040e650fcec11e5732e3/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f4e70993a03f4256876a6976a4ba0633/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/555f57c7ca58bc75d9727721425962b5/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/855a882eddb74048cd998a3fa1fb2eb0/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/ed1db428025271c3b1c2d136c19fb8ad/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/ce8c22b2a3c6490c17ee8f71edd07836/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/4fe90e2681b39f71315da00c55a6c0fe/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/34c58ad5803f6c4517a728723ebf65db/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/09d788058330bd9df09137ff35937dae/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/093bae0f6df641d924784dd4e7d3afb9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2a9055efbc4af27de05d16f26c8897e9/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/a1dc8244bad3d55d5e4174953dbf1071/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/bd24811c573a656680c373413e2e0ddb/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/959f164509e7fcdafee6d974de6f4379/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c73d9c180764b81bb761ffaa74e2b40b/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/3f2a99f1795e07cd6325e73336b33470/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/eb7e8f0d8b8263bdbf3d669966d4cfdd/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c702daf10e8ec14257f4130b655d6238/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/af7c5b1a407cdf7fab59f2f2f02342e4/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/be692f3545060d1aec8a5e8178d5201d/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2f1c2016f908ea7d4314316ddefec77b/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f7424e9450c1c79ebbbc80a7b53d9dac/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c44710f226feebb6d5c49dcf4d3b4424/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f7967c52c689f14b4d66998ad1971b70/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f192e0ecd012d0d5e59563cc50f8ea7b/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/48d5d09fde9d0d16e407944359a58d14/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/7fc0af7f7954eb76799f085c1e793b81/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/84dff8bbd3fb0a7704d7eade26f6ba0d/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/82cb4fb0957dee7508f002390f6f0dfd/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2e1cbb3f98fc87f83a0cf2f0dce87965/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/62ec80860ce23e58743b05e7481f0666/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/ff92c9fb369ac7d641fd1780db96b0c6/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b9147596833323331d1821008178f6f9/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/98bbc009b5a08fc1435eeb2d0d2e2b51/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2ce6119c24e6d95adbd7a714c7baf62d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/86459f4c9ef2c3409dbe3c8d59f94a3c/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/dd047e788a6fcc0c2e8dc9b32d87cf7d/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b754de4815822483e3c7832addbe0254/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/3bf8d797df78fa8eb5e1d0274135e99f/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/352ff798fb266e7ed421e92adce60913/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/efcd4e1703ae35a7faa94c5875e11558/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c5a6068e601a0d25ba22eeb9b120465f/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/026f4471f95029389a8896f75d55fbc3/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/d221d66cef3ad18bf12d06deb7822a2c/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/89262c4f62885682e5e04b47f11b1cd4/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/4d1e4384545f4ad56adfb92c0461903f/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/cc4969d3b2e297d7cfd67a07e813a2e3/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/74d97b06ca02dabf0fb17b0eaec0950b/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2971d68514f6a376e5a7ec0b6a3452c6/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.10.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/5ebd87b8d29fc1e41a8180d10dcdb433/transformed/activity-1.10.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/d678e1cdd0e76c7b6c9e973f9e9b8cb6/transformed/activity-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f7a732e3ad814293b4927f53aef00711/transformed/activity-compose-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/8a77151f939b7790268157d394a8ad10/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/3beffa326aa4fcceb5ce9941fdd46c87/transformed/core-ktx-1.16.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/696a66fcda9e13eff6af34b3ba9d5f92/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/db2b3f14e8cf6cf6e16761c87a7fc36c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/746b899be7189f6c2f1fc9971bfc5334/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/5036f5ec6d2b506d3a79c8b29df47119/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/7843b07d75cf51eb8e294aed0164c297/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/5bc1947b155ac0b7137ab101a2277c3c/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/471efb10da99d289637be24c28597b20/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/317ec2c8817f8f442a5daf983db110dc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/90846fd45ba449c529d686629c9236c2/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/08352662d248ec2f1ffeda3190859991/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/67d06e4860730f1fd4930ef546685c52/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/200fe5c2d7b103f7e0769f92c96a9b18/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/e34eab4f71ddaa4c6465e91ad5a3d89a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/0c29276a65539444d20daaf4777b481d/transformed/core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:4:5-20:19
+INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:4:5-20:19
+MERGED from [com.google.android.material:material:1.12.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/dcf034f4c76eba4a863e6edbd9bbde46/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/dcf034f4c76eba4a863e6edbd9bbde46/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/df0703f0487d09abc1b5a20e5b1771bd/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/df0703f0487d09abc1b5a20e5b1771bd/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/82cb4fb0957dee7508f002390f6f0dfd/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/82cb4fb0957dee7508f002390f6f0dfd/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2ce6119c24e6d95adbd7a714c7baf62d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2ce6119c24e6d95adbd7a714c7baf62d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2971d68514f6a376e5a7ec0b6a3452c6/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2971d68514f6a376e5a7ec0b6a3452c6/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/746b899be7189f6c2f1fc9971bfc5334/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/746b899be7189f6c2f1fc9971bfc5334/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/7843b07d75cf51eb8e294aed0164c297/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/7843b07d75cf51eb8e294aed0164c297/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:8:9-63
+	android:icon
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:6:9-58
+	android:allowBackup
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:10:9-44
+activity#com.quiz18.MainActivity
+ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:11:9-19:20
+	android:screenOrientation
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:14:13-49
+	android:exported
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:12:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml:17:27-74
+uses-sdk
+INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.12.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/dcf034f4c76eba4a863e6edbd9bbde46/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/dcf034f4c76eba4a863e6edbd9bbde46/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/df0703f0487d09abc1b5a20e5b1771bd/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/df0703f0487d09abc1b5a20e5b1771bd/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/e78911bf0defc5bc38f60d4bdd287000/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/e78911bf0defc5bc38f60d4bdd287000/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/027d8f0a5ef7040e650fcec11e5732e3/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/027d8f0a5ef7040e650fcec11e5732e3/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f4e70993a03f4256876a6976a4ba0633/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f4e70993a03f4256876a6976a4ba0633/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/555f57c7ca58bc75d9727721425962b5/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/555f57c7ca58bc75d9727721425962b5/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/855a882eddb74048cd998a3fa1fb2eb0/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/855a882eddb74048cd998a3fa1fb2eb0/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/ed1db428025271c3b1c2d136c19fb8ad/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/ed1db428025271c3b1c2d136c19fb8ad/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/ce8c22b2a3c6490c17ee8f71edd07836/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/ce8c22b2a3c6490c17ee8f71edd07836/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/4fe90e2681b39f71315da00c55a6c0fe/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/4fe90e2681b39f71315da00c55a6c0fe/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/34c58ad5803f6c4517a728723ebf65db/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/34c58ad5803f6c4517a728723ebf65db/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/09d788058330bd9df09137ff35937dae/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/09d788058330bd9df09137ff35937dae/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/093bae0f6df641d924784dd4e7d3afb9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/093bae0f6df641d924784dd4e7d3afb9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2a9055efbc4af27de05d16f26c8897e9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2a9055efbc4af27de05d16f26c8897e9/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/a1dc8244bad3d55d5e4174953dbf1071/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/a1dc8244bad3d55d5e4174953dbf1071/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/bd24811c573a656680c373413e2e0ddb/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/bd24811c573a656680c373413e2e0ddb/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/959f164509e7fcdafee6d974de6f4379/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/959f164509e7fcdafee6d974de6f4379/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c73d9c180764b81bb761ffaa74e2b40b/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c73d9c180764b81bb761ffaa74e2b40b/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/3f2a99f1795e07cd6325e73336b33470/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/3f2a99f1795e07cd6325e73336b33470/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/eb7e8f0d8b8263bdbf3d669966d4cfdd/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/eb7e8f0d8b8263bdbf3d669966d4cfdd/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c702daf10e8ec14257f4130b655d6238/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c702daf10e8ec14257f4130b655d6238/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/af7c5b1a407cdf7fab59f2f2f02342e4/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/af7c5b1a407cdf7fab59f2f2f02342e4/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/be692f3545060d1aec8a5e8178d5201d/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/be692f3545060d1aec8a5e8178d5201d/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2f1c2016f908ea7d4314316ddefec77b/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2f1c2016f908ea7d4314316ddefec77b/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f7424e9450c1c79ebbbc80a7b53d9dac/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f7424e9450c1c79ebbbc80a7b53d9dac/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c44710f226feebb6d5c49dcf4d3b4424/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c44710f226feebb6d5c49dcf4d3b4424/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f7967c52c689f14b4d66998ad1971b70/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f7967c52c689f14b4d66998ad1971b70/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f192e0ecd012d0d5e59563cc50f8ea7b/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f192e0ecd012d0d5e59563cc50f8ea7b/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/48d5d09fde9d0d16e407944359a58d14/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/48d5d09fde9d0d16e407944359a58d14/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/7fc0af7f7954eb76799f085c1e793b81/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/7fc0af7f7954eb76799f085c1e793b81/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/84dff8bbd3fb0a7704d7eade26f6ba0d/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/84dff8bbd3fb0a7704d7eade26f6ba0d/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/82cb4fb0957dee7508f002390f6f0dfd/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/82cb4fb0957dee7508f002390f6f0dfd/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2e1cbb3f98fc87f83a0cf2f0dce87965/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2e1cbb3f98fc87f83a0cf2f0dce87965/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/62ec80860ce23e58743b05e7481f0666/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/62ec80860ce23e58743b05e7481f0666/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/ff92c9fb369ac7d641fd1780db96b0c6/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/ff92c9fb369ac7d641fd1780db96b0c6/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b9147596833323331d1821008178f6f9/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b9147596833323331d1821008178f6f9/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/98bbc009b5a08fc1435eeb2d0d2e2b51/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/98bbc009b5a08fc1435eeb2d0d2e2b51/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2ce6119c24e6d95adbd7a714c7baf62d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2ce6119c24e6d95adbd7a714c7baf62d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/86459f4c9ef2c3409dbe3c8d59f94a3c/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/86459f4c9ef2c3409dbe3c8d59f94a3c/transformed/lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/dd047e788a6fcc0c2e8dc9b32d87cf7d/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/dd047e788a6fcc0c2e8dc9b32d87cf7d/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b754de4815822483e3c7832addbe0254/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b754de4815822483e3c7832addbe0254/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/3bf8d797df78fa8eb5e1d0274135e99f/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/3bf8d797df78fa8eb5e1d0274135e99f/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/352ff798fb266e7ed421e92adce60913/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/352ff798fb266e7ed421e92adce60913/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/efcd4e1703ae35a7faa94c5875e11558/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/efcd4e1703ae35a7faa94c5875e11558/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c5a6068e601a0d25ba22eeb9b120465f/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/c5a6068e601a0d25ba22eeb9b120465f/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/026f4471f95029389a8896f75d55fbc3/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/026f4471f95029389a8896f75d55fbc3/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/d221d66cef3ad18bf12d06deb7822a2c/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/d221d66cef3ad18bf12d06deb7822a2c/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/89262c4f62885682e5e04b47f11b1cd4/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/89262c4f62885682e5e04b47f11b1cd4/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/4d1e4384545f4ad56adfb92c0461903f/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/4d1e4384545f4ad56adfb92c0461903f/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/cc4969d3b2e297d7cfd67a07e813a2e3/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/cc4969d3b2e297d7cfd67a07e813a2e3/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/74d97b06ca02dabf0fb17b0eaec0950b/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/74d97b06ca02dabf0fb17b0eaec0950b/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2971d68514f6a376e5a7ec0b6a3452c6/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2971d68514f6a376e5a7ec0b6a3452c6/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/5ebd87b8d29fc1e41a8180d10dcdb433/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/5ebd87b8d29fc1e41a8180d10dcdb433/transformed/activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/d678e1cdd0e76c7b6c9e973f9e9b8cb6/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/d678e1cdd0e76c7b6c9e973f9e9b8cb6/transformed/activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f7a732e3ad814293b4927f53aef00711/transformed/activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f7a732e3ad814293b4927f53aef00711/transformed/activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/8a77151f939b7790268157d394a8ad10/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/8a77151f939b7790268157d394a8ad10/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/3beffa326aa4fcceb5ce9941fdd46c87/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/3beffa326aa4fcceb5ce9941fdd46c87/transformed/core-ktx-1.16.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/696a66fcda9e13eff6af34b3ba9d5f92/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/696a66fcda9e13eff6af34b3ba9d5f92/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/db2b3f14e8cf6cf6e16761c87a7fc36c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/db2b3f14e8cf6cf6e16761c87a7fc36c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/746b899be7189f6c2f1fc9971bfc5334/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/746b899be7189f6c2f1fc9971bfc5334/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/5036f5ec6d2b506d3a79c8b29df47119/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/5036f5ec6d2b506d3a79c8b29df47119/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/7843b07d75cf51eb8e294aed0164c297/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/7843b07d75cf51eb8e294aed0164c297/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/5bc1947b155ac0b7137ab101a2277c3c/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/5bc1947b155ac0b7137ab101a2277c3c/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/471efb10da99d289637be24c28597b20/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/471efb10da99d289637be24c28597b20/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/317ec2c8817f8f442a5daf983db110dc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/317ec2c8817f8f442a5daf983db110dc/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/90846fd45ba449c529d686629c9236c2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/90846fd45ba449c529d686629c9236c2/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/08352662d248ec2f1ffeda3190859991/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/08352662d248ec2f1ffeda3190859991/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/67d06e4860730f1fd4930ef546685c52/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/67d06e4860730f1fd4930ef546685c52/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/200fe5c2d7b103f7e0769f92c96a9b18/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/200fe5c2d7b103f7e0769f92c96a9b18/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/e34eab4f71ddaa4c6465e91ad5a3d89a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/e34eab4f71ddaa4c6465e91ad5a3d89a/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/0c29276a65539444d20daaf4777b481d/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/0c29276a65539444d20daaf4777b481d/transformed/core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/arsenydunaev/Developer/Xcode-main/My Apps/Quiz18/android/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/82cb4fb0957dee7508f002390f6f0dfd/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/82cb4fb0957dee7508f002390f6f0dfd/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/82cb4fb0957dee7508f002390f6f0dfd/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2ce6119c24e6d95adbd7a714c7baf62d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2ce6119c24e6d95adbd7a714c7baf62d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/746b899be7189f6c2f1fc9971bfc5334/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/746b899be7189f6c2f1fc9971bfc5334/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b0afc9316fe9d57d6d5c056d1a1d4309/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+permission#com.quiz18.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+uses-permission#com.quiz18.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/f76d0f28a0746965ac25fed68b5c959b/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2ce6119c24e6d95adbd7a714c7baf62d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2ce6119c24e6d95adbd7a714c7baf62d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2ce6119c24e6d95adbd7a714c7baf62d/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2971d68514f6a376e5a7ec0b6a3452c6/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2971d68514f6a376e5a7ec0b6a3452c6/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.8] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/2971d68514f6a376e5a7ec0b6a3452c6/transformed/ui-test-manifest-1.7.8/AndroidManifest.xml:24:13-63
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /Users/arsenydunaev/.gradle/caches/9.0.0/transforms/b660249ffd094cc486ac2b251c6b3852/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
