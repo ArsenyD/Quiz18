@@ -25,3 +25,11 @@ xcuserdata
 # dotenv environment variables file
 .env
 
+# Android generated/local files
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+
