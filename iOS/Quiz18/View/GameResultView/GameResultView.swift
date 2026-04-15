@@ -10,7 +10,7 @@ struct GameResultView: View {
         VStack {
             Spacer()
             
-            Text("Right Answers: \(game.rightAnswersAmount)")
+            GameResultIndicator(result: game.rightAnswersAmount)
             
             Spacer()
             
