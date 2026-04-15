@@ -6,10 +6,11 @@ struct GameResultIndicator: View {
     
     enum Constants {
         static let indicatorLineWidth: CGFloat = 20
-        static let barEndProtrusion: CGFloat = 8
+        static let barBackgroundOpacity: CGFloat = 0.3
+        static let labelFontSize: CGFloat = 64
+        static let horizontalPadding: CGFloat = 50
     }
     
-
     var body: some View {
         ZStack {
             Circle()
@@ -18,35 +19,31 @@ struct GameResultIndicator: View {
                     calculateLabelColor(),
                     style: StrokeStyle(lineWidth: Constants.indicatorLineWidth, lineCap: .round)
                 )
-                .foregroundStyle(.white)
                 .rotationEffect(.degrees(-90))
             
             Circle()
                 .stroke(
-                    calculateLabelColor().opacity(0.3),
-                    style: StrokeStyle(lineWidth: Constants.indicatorLineWidth, lineCap: .round)
+                    calculateLabelColor().opacity(Constants.barBackgroundOpacity),
+                    style: .init(lineWidth: Constants.indicatorLineWidth)
                 )
-                .foregroundStyle(.white)
                 .rotationEffect(.degrees(-90))
             
             VStack(spacing: 40) {
                 HStack {
-                    if #available(iOS 26, *) {
-                        Text("\(value)")
-                            .font(.system(size: 64, weight: .heavy, design: .monospaced))
-                            .contentTransition(.numericText(value: Double(value)))
-                            .foregroundColor(calculateLabelColor())
-                    }
+                    Text("\(value)")
+                        .font(.system(size: Constants.labelFontSize, weight: .heavy, design: .monospaced))
+                        .contentTransition(.numericText())
+                        .foregroundColor(calculateLabelColor())
                     
                     Text("/18")
-                        .font(.system(size: 32, weight: .heavy, design: .monospaced))
+                        .font(.system(size: Constants.labelFontSize / 2, weight: .heavy, design: .monospaced))
                         .foregroundStyle(.secondary)
                 }
             }
         }
-        .padding(.horizontal, 50)
+        .padding(.horizontal, Constants.horizontalPadding)
         .onAppear {
-            withAnimation() {
+            withAnimation(.easeOut(duration: 0.7)) {
                 value = result
             }
         }
@@ -68,13 +65,7 @@ struct GameResultIndicator: View {
     }
 }
 
-struct BarEnd: View {
-    var body: some View {
-        Circle()
-            .foregroundStyle(.white)
-    }
-}
 
 #Preview {
-    GameResultIndicator(result: 3)
+    GameResultIndicator(result: 8)
 }
