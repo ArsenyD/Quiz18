@@ -3,7 +3,9 @@ import Combine
 
 final class GameEngine: ObservableObject {
     private var gameQuestions: [Question] = []
-    private var currentQuestionIndex: Int = 0
+    
+    /// zero-indexed number of the current question
+    var currentQuestionIndex: Int = 0
     
     private lazy var resourceHandler = ResourceHandler()
     

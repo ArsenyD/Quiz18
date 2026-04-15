@@ -6,9 +6,9 @@ struct QuestionView: View {
     @EnvironmentObject var gameEngine: GameEngine
     @State var question: Question
     @State private var selectedOption: Question.QuestionOption?
+    
     @State var timeRemaining: Int = 18
     @State private var isTimerExpired = false
-
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     private enum Constants {
@@ -23,34 +23,23 @@ struct QuestionView: View {
     
     var body: some View {
         VStack(spacing: Constants.verticalSpacing) {
-            Text(question.description)
-                .bold()
-                .font(.title)
+            questionDescriptionLabel
+            
+            Spacer()
             
             QuestionTimerView(timeRemaining: timeRemaining)
             
-            LazyVGrid(columns: columns, spacing: Constants.buttonSpacing) {
-                ForEach(question.options) { option in
-                    QuestionButton(for: option, selectedOption: $selectedOption) {
-                        questionButtonAction()
-                    }
-                    .disabled(timeRemaining == 0)
-                }
-            }
+            Spacer()
+            Spacer()
+            
+            optionButtons
+                .padding([.horizontal, .bottom])
         }
-        .onReceive(timer) { elapsed in
-            guard timeRemaining > 0  else {
-                timer.upstream.connect().cancel()
-                isTimerExpired = true
-                return
-            }
-            
-            guard selectedOption == nil else {
-                timer.upstream.connect().cancel()
-                return
-            }
-            
-            timeRemaining -= 1
+        .frame(minHeight: 0, maxHeight: .infinity)
+        .navigationTitle("Question: \(gameEngine.currentQuestionIndex + 1)/18")
+        .navigationBarTitleDisplayMode(.inline)
+        .onReceive(timer) { _ in
+            onTimerPublishedValueAction()
         }
         .onChange(of: isTimerExpired) { isTimerExpired in
             if isTimerExpired {
@@ -59,6 +48,25 @@ struct QuestionView: View {
         }
     }
     
+    // MARK: Components
+    var questionDescriptionLabel: some View {
+        Text(question.description)
+            .bold()
+            .font(.title)
+    }
+    
+    var optionButtons: some View {
+        LazyVGrid(columns: columns, spacing: Constants.buttonSpacing) {
+            ForEach(question.options) { option in
+                QuestionButton(for: option, selectedOption: $selectedOption) {
+                    questionButtonAction()
+                }
+                .disabled(timeRemaining == 0)
+            }
+        }
+    }
+    
+    // MARK: Actions
     private func questionButtonAction() {
         guard let selectedOption else { return }
         
@@ -71,6 +79,21 @@ struct QuestionView: View {
                 endGame()
             }
         }
+    }
+    
+    private func onTimerPublishedValueAction() {
+        guard timeRemaining > 0  else {
+            timer.upstream.connect().cancel()
+            isTimerExpired = true
+            return
+        }
+        
+        guard selectedOption == nil else {
+            timer.upstream.connect().cancel()
+            return
+        }
+        
+        timeRemaining -= 1
     }
     
     private func nextQuestion() {

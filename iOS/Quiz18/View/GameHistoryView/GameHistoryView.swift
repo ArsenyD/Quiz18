@@ -11,6 +11,7 @@ struct GameHistoryView: View {
                 }
             }
         }
+        .scrollIndicators(.hidden)
         .background(Color(.systemGroupedBackground))
         .navigationTitle("Game History")
         .navigationBarTitleDisplayMode(.large)
