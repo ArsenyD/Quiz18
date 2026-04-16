@@ -1,10 +1,12 @@
 import SwiftUI
 
 struct QuestionButton: View {
+    // MARK: Properties
     @Binding var selectedOption: Question.QuestionOption?
     var option: Question.QuestionOption
     var onPressAction: () -> Void
     
+    // MARK: Body
     var body: some View {
         Button(option.description) {
             withAnimation(.bouncy) {
@@ -18,6 +20,7 @@ struct QuestionButton: View {
         .bold()
     }
     
+    // MARK: Methods
     private func selectOption() {
         guard selectedOption == nil else { return }
         
@@ -42,6 +45,7 @@ struct QuestionButton: View {
         return .purple.opacity(0.4)
     }
     
+    // MARK: Init
     init(for option: Question.QuestionOption, selectedOption: Binding<Question.QuestionOption?>, _ onPressAction: @escaping () -> Void) {
         self.option = option
         self.onPressAction = onPressAction

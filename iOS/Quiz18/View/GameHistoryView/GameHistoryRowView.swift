@@ -3,6 +3,7 @@ import SwiftUI
 struct GameHistoryRowView: View {
     var game: Game
     
+    // MARK: Body
     var body: some View {
         HStack {
             VStack(alignment: .leading, spacing: 4) {
@@ -34,7 +35,8 @@ struct GameHistoryRowView: View {
         )
     }
     
-    func colorForScore() -> Color {
+    // MARK: Methods
+    private func colorForScore() -> Color {
         let ratio = Double(game.rightAnswersAmount) / 18.0
         
         switch ratio {

@@ -1,10 +1,13 @@
 import SwiftUI
 
 struct MainView: View {
+    
+    // MARK: Properties
     @StateObject var router = Router()
     @StateObject var gameEngine = GameEngine()
     let resourceHandler = ResourceHandler()
     
+    // MARK: Body
     var body: some View {
         NavigationStack(path: $router.path) {
             VStack(spacing: 30) {
@@ -42,6 +45,7 @@ struct MainView: View {
         }
     }
     
+    // MARK: Methods
     private func startGame() {
         let firstQuestion = gameEngine.prepareGame()
         router.startGame(with: firstQuestion)

@@ -20,6 +20,7 @@ import kotlinx.coroutines.launch
 data class Quiz18UiState(
     val screen: AppScreen = AppScreen.Main,
     val currentQuestion: Question? = null,
+    val currentQuestionNumber: Int = 0,
     val selectedOption: QuestionOption? = null,
     val timeRemaining: Int = 18,
     val resultGame: Game? = null,
@@ -33,7 +34,13 @@ class Quiz18ViewModel(private val resourceHandler: ResourceHandler) : ViewModel(
     private var timerJob: Job? = null
 
     fun startGame() {
-        _ui.value = _ui.value.copy(screen = AppScreen.Question, currentQuestion = engine.prepareGame(), selectedOption = null, timeRemaining = 18)
+        _ui.value = _ui.value.copy(
+            screen = AppScreen.Question,
+            currentQuestion = engine.prepareGame(),
+            currentQuestionNumber = 1,
+            selectedOption = null,
+            timeRemaining = 18,
+        )
         startTimer()
     }
 
@@ -56,7 +63,12 @@ class Quiz18ViewModel(private val resourceHandler: ResourceHandler) : ViewModel(
                 delay(500)
                 val next = engine.nextQuestion()
                 if (next == null) endGame() else {
-                    _ui.value = _ui.value.copy(currentQuestion = next, selectedOption = null, timeRemaining = 18)
+                    _ui.value = _ui.value.copy(
+                        currentQuestion = next,
+                        currentQuestionNumber = _ui.value.currentQuestionNumber + 1,
+                        selectedOption = null,
+                        timeRemaining = 18,
+                    )
                     startTimer()
                 }
             } else {
@@ -82,7 +94,14 @@ class Quiz18ViewModel(private val resourceHandler: ResourceHandler) : ViewModel(
 
     private fun endGame() {
         timerJob?.cancel()
-        _ui.value = _ui.value.copy(screen = AppScreen.Result, resultGame = engine.endGame(), currentQuestion = null, selectedOption = null, timeRemaining = 0)
+        _ui.value = _ui.value.copy(
+            screen = AppScreen.Result,
+            resultGame = engine.endGame(),
+            currentQuestion = null,
+            currentQuestionNumber = 0,
+            selectedOption = null,
+            timeRemaining = 0,
+        )
     }
 
     class Factory(private val context: Context) : ViewModelProvider.Factory {

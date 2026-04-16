@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Quiz18</string>
+    <string name="question_title">Question %1$d</string>
+    <string name="game_over_title">Game Over</string>
+    <string name="play_again_button">Play Again</string>
+    <string name="go_to_menu_button">Go to menu</string>
 </resources>

@@ -18,13 +18,11 @@ struct PrimaryButton: View {
                 .frame(height: 54)
                 .background(
                     ZStack {
-                        // Glow
                         RoundedRectangle(cornerRadius: 16)
                             .fill(Color.purple)
                             .blur(radius: isPressed ? 4 : 7)
                             .opacity(isPressed ? 0.6 : 0.9)
                         
-                        // Main button
                         RoundedRectangle(cornerRadius: 16)
                             .fill(Color.purple)
                     }

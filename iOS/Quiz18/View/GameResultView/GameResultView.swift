@@ -1,11 +1,13 @@
 import SwiftUI
 
 struct GameResultView: View {
+    // MARK: Properties
     @EnvironmentObject private var router: Router
     @EnvironmentObject private var gameEngine: GameEngine
     
     let game: Game
     
+    // MARK: Body
     var body: some View {
         VStack {
             Spacer()
@@ -31,6 +33,7 @@ struct GameResultView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
     
+    // MARK: Init
     init(for game: Game) {
         self.game = game
     }

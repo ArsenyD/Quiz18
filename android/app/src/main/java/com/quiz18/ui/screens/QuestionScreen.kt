@@ -1,6 +1,7 @@
 package com.quiz18.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -27,15 +28,46 @@ import com.quiz18.ui.components.QuestionTimer
 fun QuestionScreen(question: Question, selectedOption: QuestionOption?, timeRemaining: Int, onOptionSelected: (QuestionOption) -> Unit) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center,
-        modifier = Modifier.fillMaxSize().padding(horizontal = 16.dp),
+        modifier = Modifier.fillMaxSize().padding(horizontal = 16.dp, vertical = 12.dp),
     ) {
-        Text(question.description, fontSize = 30.sp, fontWeight = FontWeight.Bold, lineHeight = 36.sp, textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
-        Spacer(Modifier.height(36.dp))
-        QuestionTimer(timeRemaining)
-        Spacer(Modifier.height(36.dp))
-        LazyVerticalGrid(columns = GridCells.Fixed(2), horizontalArrangement = Arrangement.spacedBy(10.dp), verticalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
-            items(question.options) { option -> QuestionButton(option, selectedOption, timeRemaining > 0) { onOptionSelected(option) } }
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .weight(1f),
+            contentAlignment = Alignment.TopCenter,
+        ) {
+            Text(
+                question.description,
+                fontSize = 44.sp,
+                fontWeight = FontWeight.Bold,
+                lineHeight = 50.sp,
+                textAlign = TextAlign.Start,
+                modifier = Modifier.fillMaxWidth(),
+            )
         }
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .weight(1f),
+            contentAlignment = Alignment.Center,
+        ) {
+            QuestionTimer(timeRemaining)
+        }
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .weight(1f),
+            contentAlignment = Alignment.BottomCenter,
+        ) {
+            LazyVerticalGrid(
+                columns = GridCells.Fixed(2),
+                horizontalArrangement = Arrangement.spacedBy(10.dp),
+                verticalArrangement = Arrangement.spacedBy(10.dp),
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                items(question.options) { option -> QuestionButton(option, selectedOption, timeRemaining > 0) { onOptionSelected(option) } }
+            }
+        }
+        Spacer(Modifier.height(8.dp))
     }
 }

@@ -2,6 +2,7 @@ import SwiftUI
 import Combine
 
 struct QuestionView: View {
+    // MARK: Properties
     @EnvironmentObject var router: Router
     @EnvironmentObject var gameEngine: GameEngine
     @State var question: Question
@@ -11,6 +12,7 @@ struct QuestionView: View {
     @State private var isTimerExpired = false
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
+    // MARK: Layout
     private enum Constants {
         static let buttonSpacing: CGFloat = 10
         static let verticalSpacing: CGFloat = 50
@@ -21,6 +23,7 @@ struct QuestionView: View {
         GridItem(.flexible(), spacing: Constants.buttonSpacing)
     ]
     
+    // MARK: Body
     var body: some View {
         VStack(spacing: Constants.verticalSpacing) {
             questionDescriptionLabel
@@ -66,7 +69,7 @@ struct QuestionView: View {
         }
     }
     
-    // MARK: Actions
+    // MARK: Methods
     private func questionButtonAction() {
         guard let selectedOption else { return }
         

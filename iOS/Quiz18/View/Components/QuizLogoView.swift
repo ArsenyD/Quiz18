@@ -21,7 +21,6 @@ struct ClockView: View {
                 .rotationEffect(.degrees(90))
                 .frame(width: 70, height: 70)
             
-            
             ForEach(0..<12) { i in
                 Rectangle()
                     .fill(Color.purple)
