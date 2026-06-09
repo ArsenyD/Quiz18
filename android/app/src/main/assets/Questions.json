@@ -1,20 +1,5402 @@
 [
-  {"id":1,"description":"What is 2 + 2?","difficulty":"easy","options":[{"id":1,"description":"3","isCorrect":false},{"id":2,"description":"4","isCorrect":true},{"id":3,"description":"5","isCorrect":false},{"id":4,"description":"6","isCorrect":false}]},
-  {"id":2,"description":"What color is the sky on a clear day?","difficulty":"easy","options":[{"id":1,"description":"Blue","isCorrect":true},{"id":2,"description":"Green","isCorrect":false},{"id":3,"description":"Red","isCorrect":false},{"id":4,"description":"Yellow","isCorrect":false}]},
-  {"id":3,"description":"Which animal barks?","difficulty":"easy","options":[{"id":1,"description":"Cat","isCorrect":false},{"id":2,"description":"Dog","isCorrect":true},{"id":3,"description":"Cow","isCorrect":false},{"id":4,"description":"Sheep","isCorrect":false}]},
-  {"id":4,"description":"What is the capital of France?","difficulty":"easy","options":[{"id":1,"description":"Berlin","isCorrect":false},{"id":2,"description":"Madrid","isCorrect":false},{"id":3,"description":"Paris","isCorrect":true},{"id":4,"description":"Rome","isCorrect":false}]},
-  {"id":5,"description":"How many days are in a week?","difficulty":"easy","options":[{"id":1,"description":"5","isCorrect":false},{"id":2,"description":"6","isCorrect":false},{"id":3,"description":"7","isCorrect":true},{"id":4,"description":"8","isCorrect":false}]},
-  {"id":6,"description":"What is 12 * 12?","difficulty":"medium","options":[{"id":1,"description":"124","isCorrect":false},{"id":2,"description":"144","isCorrect":true},{"id":3,"description":"154","isCorrect":false},{"id":4,"description":"164","isCorrect":false}]},
-  {"id":7,"description":"Which planet is known as the Red Planet?","difficulty":"medium","options":[{"id":1,"description":"Earth","isCorrect":false},{"id":2,"description":"Mars","isCorrect":true},{"id":3,"description":"Venus","isCorrect":false},{"id":4,"description":"Jupiter","isCorrect":false}]},
-  {"id":8,"description":"Who wrote Romeo and Juliet?","difficulty":"medium","options":[{"id":1,"description":"Charles Dickens","isCorrect":false},{"id":2,"description":"William Shakespeare","isCorrect":true},{"id":3,"description":"Mark Twain","isCorrect":false},{"id":4,"description":"Leo Tolstoy","isCorrect":false}]},
-  {"id":9,"description":"What is the square root of 81?","difficulty":"medium","options":[{"id":1,"description":"7","isCorrect":false},{"id":2,"description":"8","isCorrect":false},{"id":3,"description":"9","isCorrect":true},{"id":4,"description":"10","isCorrect":false}]},
-  {"id":10,"description":"Which gas do plants absorb?","difficulty":"medium","options":[{"id":1,"description":"Oxygen","isCorrect":false},{"id":2,"description":"Nitrogen","isCorrect":false},{"id":3,"description":"Carbon Dioxide","isCorrect":true},{"id":4,"description":"Hydrogen","isCorrect":false}]},
-  {"id":11,"description":"What is derivative of x^2?","difficulty":"hard","options":[{"id":1,"description":"x","isCorrect":false},{"id":2,"description":"2x","isCorrect":true},{"id":3,"description":"x^2","isCorrect":false},{"id":4,"description":"2","isCorrect":false}]},
-  {"id":12,"description":"Which element has symbol Au?","difficulty":"hard","options":[{"id":1,"description":"Silver","isCorrect":false},{"id":2,"description":"Gold","isCorrect":true},{"id":3,"description":"Oxygen","isCorrect":false},{"id":4,"description":"Argon","isCorrect":false}]},
-  {"id":13,"description":"Who developed relativity?","difficulty":"hard","options":[{"id":1,"description":"Isaac Newton","isCorrect":false},{"id":2,"description":"Albert Einstein","isCorrect":true},{"id":3,"description":"Nikola Tesla","isCorrect":false},{"id":4,"description":"Galileo","isCorrect":false}]},
-  {"id":14,"description":"What is capital of Japan?","difficulty":"hard","options":[{"id":1,"description":"Kyoto","isCorrect":false},{"id":2,"description":"Osaka","isCorrect":false},{"id":3,"description":"Tokyo","isCorrect":true},{"id":4,"description":"Hiroshima","isCorrect":false}]},
-  {"id":15,"description":"Which data structure uses FIFO?","difficulty":"hard","options":[{"id":1,"description":"Stack","isCorrect":false},{"id":2,"description":"Queue","isCorrect":true},{"id":3,"description":"Tree","isCorrect":false},{"id":4,"description":"Graph","isCorrect":false}]},
-  {"id":16,"description":"Complexity of binary search?","difficulty":"hardcore","options":[{"id":1,"description":"O(n)","isCorrect":false},{"id":2,"description":"O(log n)","isCorrect":true},{"id":3,"description":"O(n log n)","isCorrect":false},{"id":4,"description":"O(1)","isCorrect":false}]},
-  {"id":17,"description":"Secure web protocol?","difficulty":"hardcore","options":[{"id":1,"description":"HTTP","isCorrect":false},{"id":2,"description":"FTP","isCorrect":false},{"id":3,"description":"HTTPS","isCorrect":true},{"id":4,"description":"SMTP","isCorrect":false}]},
-  {"id":18,"description":"Swift keyword for constant?","difficulty":"hardcore","options":[{"id":1,"description":"var","isCorrect":false},{"id":2,"description":"let","isCorrect":true},{"id":3,"description":"const","isCorrect":false},{"id":4,"description":"static","isCorrect":false}]}
+  {
+    "id": 1,
+    "description": "Что изучает экономика?",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Природные процессы",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Технические системы",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Выбор при ограниченных ресурсах",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Историю государств",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "description": "Что такое спрос?",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Готовность купить товар",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Уровень цен",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Готовность продать товар",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Доход продавца",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "description": "Что такое предложение?",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Готовность купить товар",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Доход покупателей",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Готовность продавать товар",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Уровень налогов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "description": "Деньги выполняют функцию:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Производства благ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Средства обмена",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Хранения информации",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Контроля цен",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "description": "Инфляция означает:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рост занятости",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Повышение общего уровня цен",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Рост экспорта",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Снижение налогов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "description": "Бюджет — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Банковский продукт",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Финансовый рынок",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "План доходов и затрат",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "План расходов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "description": "Прибыль равна:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доход минус расходы",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Выручка плюс затраты",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход плюс налоги",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Расходы минус доход",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "description": "Налог — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Добровольный платёж государству",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Обязательный платёж государству",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Коммерческий доход",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Банковская услуга",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "description": "Рынок — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Склад товаров",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Производственная зона",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Государственный орган",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Взаимодействие покупателей и продавцов",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "description": "Безработица — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Отсутствие дохода",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Низкие цены",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Малый экспорт",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Отсутствие работы",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "description": "Зарплата — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Государственный налог",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Банковский процент",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход от труда",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Финансовый актив",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "description": "ВВП показывает:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доход граждан",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Уровень импорта",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Стоимость конечных товаров",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Размер налогов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "description": "Кредит — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Налоговый платёж",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Заём с обязательством возврата",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Подарок",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Доход фирмы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "description": "Банк выполняет функцию:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Сбора и учёта налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Производства товаров",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Финансового посредничества",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Контроля рыночных цен",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "description": "Экспорт означает:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Производство внутри страны",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Вывоз товаров",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Обмен валют",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Ввоз товаров",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "description": "Импорт означает:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Вывоз продукции",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Внутреннюю торговлю",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Ввоз товаров",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Производство услуг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "description": "Конкуренция — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Сотрудничество фирм",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Рост цен",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Соперничество участников рынка",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Контроль государства",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "description": "Монополия — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Много продавцов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Свободный вход",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Равные условия",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Один продавец на рынке",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "description": "Инвестиции — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Потребление товаров",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Банковские операции",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Вложения ради будущего дохода",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Уплата налогов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "description": "Доход — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Банковский кредит",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Уровень затрат",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Полученные средства",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Финансовый долг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "description": "Дефицит означает:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рост доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Баланс бюджета",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Избыток ресурсов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Недостаток ресурсов",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "description": "Профицит означает:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Избыток ресурсов",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Снижение доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рост цен",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Недостаток средств",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "description": "Валюта — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Вид товара",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Производственный ресурс",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Денежная единица",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Налоговая база",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "description": "Цена — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Стоимость товара",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Прибыль компании",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход фирмы",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Налоговая ставка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "description": "Потребитель — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Покупатель продукции",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Производитель товаров",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Работник фирмы",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Инвестор капитала",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "description": "Что делает фирма?",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Потребляет товары",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Взимает налоги",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Контролирует цены",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Производит товары и услуги",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "description": "Рынок труда — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Найм работников",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Продажа товаров",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Валютный обмен",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Финансовые сделки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "description": "Сбережения — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Неиспользованные средства",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Кредит",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "description": "Расходы — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Прибыль",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Полученные деньги",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Потраченные средства",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "description": "Производитель — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Тот, кто создаёт товары",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Покупатель",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Инвестор",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Налогоплательщик",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "description": "Что такое бартер?",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Банковская услуга",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Кредитная операция",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Денежный обмен",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Обмен товарами без денег",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "description": "Финансы — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Производство товаров",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Государственный контроль",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Система денежных отношений",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Только деньги",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "description": "Доход фирмы — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Кредит",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Выручка от продаж",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Расходы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "description": "Издержки — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Прибыль",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Затраты на производство",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "description": "Прибыль бывает:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только чистой",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Только налоговой",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Только валовой",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Валовой и чистой",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "description": "Товар — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Услуга",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Продукт для продажи",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "description": "Услуга — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Ресурс",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Деньги",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Нематериальное благо",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Материальный объект",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "description": "Экономический рост — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рост налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Снижение ВВП",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Снижение цен",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Увеличение производства",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "description": "Ресурсы — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доходы",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Цены",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Средства для производства",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Налоги",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "description": "Производство — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Уплата налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Создание товаров и услуг",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Потребление",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Обмен валют",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "description": "Обмен — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Производство",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Передача товаров между людьми",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Кредит",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Налог",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "description": "Потребление — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Использование товаров",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Производство",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Доход",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "description": "Экономика делится на:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рыночную и плановую",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Микро и макро",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Внешнюю и внутреннюю",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Частную и государственную",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "description": "Микроэкономика изучает:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Политику",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Историю",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Поведение фирм и людей",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Страны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "description": "Макроэкономика изучает:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только банки",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Отдельные фирмы",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Экономику в целом",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Только рынки",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "description": "Деньги выполняют функцию:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Учёта",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Контроля",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Средства накопления",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Производства",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "description": "Доходы бывают:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только налоговые",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Активные и пассивные",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Только активные",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Только пассивные",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "description": "Финансовый рынок — это:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Обмен финансовыми активами",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Завод",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Склад",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Магазин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "description": "Валюта бывает:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только электронная",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Только иностранная",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Наличная и безналичная",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Только наличная",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "description": "Цена зависит от:",
+    "difficulty": "easy",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только спроса",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Спроса и предложения",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Только доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Только государства",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "description": "Закон спроса утверждает:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Цена и спрос растут",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Цена фиксирована",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Цена растёт — спрос падает",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Спрос не меняется",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "description": "Альтернативная стоимость — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доход фирмы",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Лучшая упущенная альтернатива",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Рыночная цена",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Налог",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "description": "Эластичность спроса показывает:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Налоги",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Чувствительность к цене",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Прибыль",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Доход",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "description": "Центральный банк выполняет:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Выплату зарплат",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Регулирование денежного обращения",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Производство товаров",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Контроль экспорта",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "description": "Дивиденды — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Фиксированная зарплата",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Государственный налог",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Выплаты владельцам акций",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Банковский процент",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "description": "Акция представляет:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Налоговый платёж",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Долговое обязательство",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Банковский вклад",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Долю в компании",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "description": "Облигация — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доля собственности",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Валютный актив",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Товар на рынке",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Долговая ценная бумага",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "description": "Рецессия означает:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение деловой активности",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Рост инфляции",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Увеличение экспорта",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Экономический рост",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "description": "Девальвация — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение стоимости валюты",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Увеличение доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рост налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Укрепление валюты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "description": "Ликвидность — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Объём затрат",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Способность быстро продать актив",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Уровень налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Размер дохода",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "description": "Маржа — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Банковский кредит",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Размер налога",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Уровень зарплаты",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Разница цены и затрат",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "description": "Субсидия — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Штрафная мера",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налоговый платёж",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рыночный доход",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Финансовая поддержка государства",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "description": "Протекционизм означает:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Отмену тарифов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Свободную торговлю",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рост импорта",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Защиту внутреннего рынка",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "description": "Дотация — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Поддержка из бюджета",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Финансовое наказание",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рыночная цена",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Частный доход",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "description": "Капитал в экономике — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Налоги",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Доходы",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Только деньги",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Ресурсы для производства",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "description": "Труд — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Товар на складе",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Человеческая деятельность",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Банковский продукт",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Финансовый актив",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "description": "Земля как фактор — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Финансовый актив",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Территория страны",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Налоговая база",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Природный ресурс",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "description": "Производительность — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Уровень цен",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Размер налога",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход фирмы",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Выпуск на единицу ресурса",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "description": "Фискальная политика — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Управление налогами и расходами",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Контроль цен",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Контроль зарплат",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Регулирование торговли",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "description": "Монетарная политика — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Налоговое регулирование",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Производство товаров",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Управление денежной массой",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Контроль занятости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "description": "Валютный курс — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Уровень налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Объём экспорта",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход страны",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Цена одной валюты в другой",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "description": "Инфляция спроса возникает:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "При избытке спроса",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "При низком спросе",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "При снижении затрат",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "При росте импорта",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "description": "Инфляция издержек возникает:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "При росте затрат",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "При росте спроса",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "При снижении налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "При росте доходов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "description": "Амортизация означает:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Увеличение прибыли",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Износ капитала",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Снижение налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Рост стоимости",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "description": "Кредитный рейтинг отражает:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Уровень цен",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Размер активов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Надёжность заёмщика",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Доход компании",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "description": "Дефицит бюджета — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Превышение расходов",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Отсутствие налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Равенство бюджета",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Превышение доходов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "description": "Профицит бюджета — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Отсутствие доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Низкие налоги",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Превышение расходов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Превышение доходов",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "description": "Государственный долг — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Сумма обязательств государства",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Уровень налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Объём экспорта",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Доход страны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "description": "Инвестиционный риск — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Размер дохода",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налоговая ставка",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Гарантия прибыли",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Вероятность потерь",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "description": "Диверсификация означает:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Распределение инвестиций",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Снижение доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Увеличение налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Концентрацию вложений",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "description": "Финансовый актив — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Производственный ресурс",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Право на получение дохода",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Товар",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "description": "Реальная ставка процента — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "С учетом налога",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Без учёта инфляции",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Без учета налога",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "С учётом инфляции",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "description": "Номинальная ставка — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "С учетом налога",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Без учета налога",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "С учётом инфляции",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Без учёта инфляции",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "description": "Биржа — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Государственный орган",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Производство товаров",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Банковская система",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Организованный рынок активов",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "description": "Актив — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доход",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Расход",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Долг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "description": "Пассив — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Прибыль",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Актив",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Долг",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "description": "Инвестиционный портфель — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Набор различных активов",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Налоговый отчёт",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Банковский счёт",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Один актив",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "description": "Рынок капитала — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рынок труда",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Долгосрочные инвестиции",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Рынок товаров",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Краткосрочные кредиты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "description": "Рынок денег — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рынок услуг",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Краткосрочные финансовые операции",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Производство товаров",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Долгосрочные вложения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "description": "Капитализация — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Общая стоимость компании",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Расход",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "description": "Леверидж — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Использование заёмных средств",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Использование собственных средств",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рост доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Уплата налогов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "description": "Банковский процент — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Цена товара",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Доход государства",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Плата за использование денег",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Налог за услуги банка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "description": "Депозит — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Вклад",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Кредит",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Налог",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "description": "Кредитор — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Работник",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Тот, кто берет деньги",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Тот, кто даёт деньги",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Инвестор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "description": "Заёмщик — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Тот, кто даёт деньги",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Инвестор",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Тот, кто берёт деньги",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Продавец",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "description": "Финансовая система — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Система налоговой политики",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Совокупность производства",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Система торговли товарами",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Совокупность фининститутов",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "description": "Экономический цикл — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение цен",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Рост налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Чередование подъёмов и спадов",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Постоянный рост",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "description": "Подъём экономики — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рост деловой активности",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Снижение активности",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Снижение инвестиций",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Увеличение безработицы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "description": "Спад экономики — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение активности",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Рост производства",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рост инвестиций",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Снижение налогов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "description": "Равновесие рынка — это:",
+    "difficulty": "medium",
+    "options": [
+      {
+        "id": 1,
+        "description": "Баланс спроса и предложения",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Дефицит ресурсов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Избыток товара",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Рост цен",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "description": "Кривая Лаффера показывает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Зависимость спроса от цены",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Уровень инфляции в стране",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Связь налогов и доходов бюджета",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Динамику безработицы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "description": "Закон Оукена описывает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Связь инфляции и ставок",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Рост государственных расходов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Зависимость спроса и цены",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Связь безработицы и ВВП",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "description": "Кривая Филлипса отражает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Уровень налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Рост экономики",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Динамику инвестиций",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Связь инфляции и безработицы",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "description": "Парето-эффективность означает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Невозможность улучшить без ухудшения",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Снижение инфляции",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Равенство доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Рост производства",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "description": "Монопсония — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Свободный рынок",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Один крупный покупатель",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Много продавцов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Один продавец",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "description": "Олигополия характеризуется:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Отсутствием рынка",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Одним продавцом",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Полной конкуренцией",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Несколькими крупными фирмами",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "description": "Потери благосостояния возникают при:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижении налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Росте производства",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Искажении рыночного равновесия",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Свободной конкуренции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "description": "Экстерналии означают:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Внешние эффекты для третьих лиц",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Доходы компаний",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рыночные цены",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Налоги государства",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "description": "Положительная экстерналия — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Выгода для третьих лиц",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Снижение спроса",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Убытки общества",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Рост налогов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "description": "Отрицательная экстерналия — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Польза обществу",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Рост доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Вред для третьих лиц",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Снижение цен",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "description": "Асимметрия информации означает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Разную форму участия",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Полную прозрачность сделок",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Неравный доступ к информации",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Конфигурацию рыночной системы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "description": "Моральный риск возникает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "При изменении поведения после сделки",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "При снижении спроса после сделки",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "При росте цен перед сделкой",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "При конкуренции перед сделкой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "description": "Неблагоприятный отбор означает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Выбор менее качественных участников",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Снижение налогов из-за кризисы",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Увеличение прибыли части игроков",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Рост спроса на рынке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "description": "Номинальный ВВП измеряет:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Объём экспорта",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "С учётом инфляции",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход населения",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Без учёта инфляции",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "description": "Реальный ВВП измеряет:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только доходы",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Без инфляции",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Только расходы",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "С учётом инфляции",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "description": "Дефлятор ВВП показывает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доходы",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Безработицу",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Налоги",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Уровень цен в экономике",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "description": "Хеджирование используется для:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижения рисков",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Уплаты налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Ростa спроса",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Увеличения прибыли",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "description": "Дериватив — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Обычный товар",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Производный финансовый инструмент",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "description": "Форвардный контракт — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Банковский вклад",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Договор на будущую поставку",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Акция компании",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Спотовая сделка",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "description": "Фьючерс отличается тем, что:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Не имеет сроков",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Не регулируется",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Не торгуется",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Стандартизирован биржей",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "description": "Опцион даёт:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Обязанность сделки",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Уплату налога",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Право совершить сделку",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Гарантию прибыли",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "description": "Модель CAPM оценивает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Уровень налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Объём продаж",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход фирмы",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Связь риска и доходности",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "description": "Бета-коэффициент отражает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рыночный риск актива",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Затраты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "description": "Ликвидная ловушка означает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение цен",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Рост ставок",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рост спроса",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Неэффективность денежной политики",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "description": "Стагфляция — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение цен",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Рост занятости",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рост экономики",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Инфляция при стагнации",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "description": "Эффект вытеснения возникает при:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Росте госрасходов и ставок",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Снижении налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Росте инвестиций",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Росте экспорта",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "description": "Предельная полезность — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Цена товара",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Доход потребителя",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Общая полезность",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Дополнительная полезность единицы",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "description": "Закон убывающей полезности означает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рост доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Снижение цен",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Снижение полезности каждой новой единицы",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Рост полезности",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "description": "Излишек потребителя — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Расход",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Разница ценности и цены",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Доход фирмы",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Разница цены и издержек",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "description": "Излишек производителя — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Разница ценности и цены",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Прибыль государства",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Разница цены и издержек",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Доход потребителя",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "description": "Совершенная конкуренция характеризуется:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Одним продавцом",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Множеством участников рынка",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Контролем цен",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Высокими барьерами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "description": "Барьеры входа — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Лёгкий доступ",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Рост спроса",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Препятствия для новых фирм",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Снижение цен",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "description": "Ценовая дискриминация — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Разные цены для разных покупателей",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Снижение цен",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рост доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Единая цена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "description": "Картель — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Мафиозная структура",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Государственный орган",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Сговор фирм по ценам",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Свободный рынок",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "description": "Рыночное равновесие достигается при:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Равенстве спроса и предложения",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Росте цен",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Дефиците предложения",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Избытке спроса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "description": "Эластичность предложения показывает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Реакцию предложения на цену",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Прибыль",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Налог",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "description": "Предельные издержки — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Затраты на дополнительную единицу",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Общие затраты когнтрагентов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Цена",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Доход",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "description": "Средние издержки — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Затраты на единицу продукции",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Общие расходы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "description": "Точка безубыточности — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Максимум прибыли",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Снижение цен",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рост доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Равенство доходов и затрат",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "description": "Эффект масштаба означает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение затрат при росте объёма",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Снижение спроса",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рост цен",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Рост затрат",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "description": "Внешняя торговля даёт:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рост налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Убытки",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Выгоды от специализации",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Снижение производства",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "description": "Сравнительное преимущество — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Высокая цена",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Низкие альтернативные издержки",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Абсолютная эффективность",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "description": "Торговый баланс — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доход страны",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Расход",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Разница экспорта и импорта",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "description": "Платёжный баланс — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только торговля",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налоги",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Все внешние операции страны",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Доходы населения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "description": "Девальвация в первую очередь влияет на:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Производство",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налоги",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Экспорт",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Доходы бюджета",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "description": "Ревальвация означает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Укрепление валюты",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Ослабление валюты",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Рост инфляции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "description": "Золотой стандарт — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Бумажные деньги",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налоги",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Привязка валюты к золоту",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Кредитная система",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "description": "Денежная масса включает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Наличные и депозиты",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Только наличные",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Только активы",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Только кредиты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "description": "Скорость обращения денег — это:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Частота использования денег",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доход",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Цена",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "description": "Денежное равновесие означает:",
+    "difficulty": "hard",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Избыток денег",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Баланс спроса и предложения денег",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Рост инфляции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "description": "Теорема Коуза утверждает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Государство доминирует в экономике",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Частные договорённости решают экстерналии",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Рынки всегда неэффективны",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Налоги устраняют все проблемы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "description": "Теория рациональных ожиданий предполагает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Агенты используют доступную информацию",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Люди систематически ошибаются",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Решения случайны",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Поведение не меняется",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "description": "Модель IS-LM описывает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Равновесие на товарном и денежном рынках",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Только инвестиции",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Только рынок труда",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Только инфляцию",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "description": "Кейнсианский мультипликатор показывает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Увеличение эффекта от расходов",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Рост налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Падение инвестиций",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Снижение расходов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "description": "Ловушка среднего дохода означает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Быстрый рост",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Снижение доходов у среднего класса",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Застревание на среднем уровне развития",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Рост инфляции",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "description": "Модель Солоу учитывает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Капитал, технологии и труд",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налоги ,труд и технологии",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Труд, налоги и капитал",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Капитал, труд и технологии",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "description": "Эндогенный рост объясняет:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Внешние факторы роста",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Только экспорт",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Только импорт",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Внутренние источники роста",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "description": "Закон единой цены предполагает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Одинаковые цены на одинаковые товары",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Одинаковые цены на разные товары",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Разные цены на одинаковые товары",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Разные цены на разные товары",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "description": "Паритет покупательной способности означает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рост доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Разные валюты",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Сравнение валют через уровень цен",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Снижение экспорта",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "description": "Эффект Балассы–Самуэльсона объясняет:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение доходов Различия доходов между странами",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Рост налогов Различия налогов между странами",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Различия цен между странами",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Инфляционные различия между странами",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "description": "Модель Хекшера–Олина утверждает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Торговлю на основе ресурсов стран",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Торговлю без факторов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Только внутренний рынок",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Только спрос",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "description": "Гипотеза эффективного рынка предполагает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рост продуктивности при новых сделках",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Снижение спроса при срыве сделки",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Наличие ошибок на рынке",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Отражение всей информации в ценах",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "description": "Поведенческая экономика изучает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только доходы",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Влияние психологии на решения",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Только модели",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Только цены",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "description": "Нудж означает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Бесконтрольное планирование цен",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Мягкое влияние на выбор",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Жёсткое принуждение",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Риск-ориентированный фонд",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "description": "Теория игр анализирует:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Случайные процессы",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Только цены",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Только рынки",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Стратегическое взаимодействие агентов",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "description": "Дилемма заключённого показывает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Конфликт между выгодой и сотрудничеством",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Снижение цен",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Неочевидность тюремной экономики",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Постоянную выгоду кооперации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "description": "Равновесие Нэша означает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Баланс фискальной системы",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Снижение спроса в равновесной модели",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Максимизацию прибыли",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Стабильность стратегий игроков",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "description": "Институциональная экономика изучает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Роль институтов в экономике",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Роль цен в экономике",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Роль денег в экономике",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Роль регуляции в экономике",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "description": "Теневая экономика включает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Структуру экономики в вечернее время",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Легальную деятельность",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Нелегальную деятельность",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Структуру экономики в ночное время",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "description": "Финансовый пузырь возникает при:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижении спроса",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Стабильных ценах",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Переоценке активов",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Росте налогов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "description": "Кризис ликвидности означает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение равновесных цен",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Рост нелегальных доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Избыток свободных денег",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Недостаток ликвидных средств",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "description": "Количественное смягчение — это:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение средних зарплат",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Продажа активов центральным банком",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Покупка активов центральным банком",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Снижение цен на массовые товары",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "description": "Отрицательные ставки означают:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рост инвестиций",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Плату за хранение средств",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Снижение налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Доход вкладчиков",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "description": "Долговая спираль возникает при:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижении расходов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Росте долга из-за процентов",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Росте доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Снижении долга",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "description": "Теория общественного выбора изучает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Частные рынки",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Только фирмы",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Политические решения и стимулы",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Только потребителей",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "description": "Проблема безбилетника означает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Пользование благом без оплаты",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Рост доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Переплату",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Снижение цен",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "description": "Общественное благо характеризуется:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Исключаемостью",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Неисключаемостью",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Ограниченным доступом",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Высокой ценой",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "description": "Квазигосударственные блага финансируются:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Парамилитарными группами",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Полностью государством",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Рынком",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Частично государством",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "description": "Теория контрактов изучает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Доходы",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Производство",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Взаимоотношения и стимулы сторон",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Налоги",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "description": "Принципал-агент проблема возникает при:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Росте цен",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Конфликте интересов",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Снижении доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Равенстве информации",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "description": "Эффективность по Калдору–Хиксу означает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Полное равенство участников",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Возможность компенсации проигравших",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Самоустранение регулятора от процесса",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Возможность поощрения выигравших",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "description": "Кривая безразличия показывает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Отношение к общественным благам",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Разные уровни полезности",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Восприимчивость к поведенческим паттернам",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Равные уровни полезности",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "description": "Бюджетное ограничение отражает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Общую прибыль в стране",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Налоговые поступления",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Доступные комбинации товаров",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Доход от пошлин",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "description": "Общее равновесие — это:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Баланс всех рынков одновременно",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Только предложение",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Один рынок",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Только спрос",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "description": "Частичное равновесие — это:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только доход",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Все рынки",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Только налоги",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Анализ одного рынка",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "description": "Модель пересекающихся поколений изучает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только доходы",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Поведение разных поколений",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Только цены",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Поведение одного поколения",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "description": "Теория человеческого капитала утверждает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Инвестиции в навыки повышают доход",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Налоговые льготы повышают дозод",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Образование не влияет на общую прибыль",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Предпринимательство - главный драйвер экономики",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "description": "Эффект сигналов означает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Передачу информации через действия",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Экономическую связь причины и действия",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Отсутствие информации",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Снижение цен",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "description": "Селективные стимулы используются для:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижения спроса",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Снижения доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Побуждения к участию в коллективных действиях",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Побуждения к участию в индивидуальных действиях",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "description": "Теория оптимального налогообложения изучает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Баланс регулирования и свободы",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Баланс элитаризма и эгалитаризма",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Баланс эффективности и справедливости",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Баланс равенства и братства",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "description": "Фискальный мультипликатор показывает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Снижение дохода из-за налоговых льгот",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Рост налогов с каждым годом",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Влияние госрасходов на экономику",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Снижение инвестиций из-за налоговых ограничений",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "description": "Эффект Рикардо–Барро означает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Ожидание будущих доходов снижает потребление",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Ожидание будущих налогов снижает потребление",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Ожидание будущих покупок снижает потребление",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Ожидание снижения цен повышает потребление",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "description": "Кредитный цикл включает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Риск-менеджмент за 5-10 лет",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Расширение и сжатие кредитования",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Инфляционную спираль",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Только рост",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "description": "Финансовый акселератор означает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Рост налогов",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Снижение эффектов",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Снижение доходов",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Усиление колебаний через финансы",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "description": "Гипотеза жизненного цикла утверждает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Люди сглаживают потребление во времени",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Доход постоянен",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Снижение цен",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Рост налогов",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "description": "Постоянный доход по Фридману — это:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Ожидаемый долгосрочный доход",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Цена",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Налог",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Текущий доход",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "description": "Теория реальных деловых циклов объясняет:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Шоки технологий и предложения",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Колебания налогов и льгот",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Шоки инфляции и дефляции",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Стагфляционую динамику",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "description": "Новая кейнсианская теория включает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только предложение",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Только спрос",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Жёсткости цен и зарплат",
+        "isCorrect": true
+      },
+      {
+        "id": 4,
+        "description": "Гибкие цены",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "description": "Теория оптимальных валютных зон изучает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Только налоги",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "description": "Условия для общей валюты",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "description": "Один рынок",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Только экспорт",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "description": "Глобализация означает:",
+    "difficulty": "hardcore",
+    "options": [
+      {
+        "id": 1,
+        "description": "Интеграцию мировых экономик",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "description": "Изоляцию стран",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "description": "Разрушение глобальной деревни",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "description": "Снижение торговли",
+        "isCorrect": false
+      }
+    ]
+  }
 ]
