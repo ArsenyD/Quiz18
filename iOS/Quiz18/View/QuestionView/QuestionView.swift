@@ -39,7 +39,12 @@ struct QuestionView: View {
                 .padding([.horizontal, .bottom])
         }
         .frame(minHeight: 0, maxHeight: .infinity)
-        .navigationTitle("Question \(gameEngine.currentQuestionIndex + 1)")
+        .navigationTitle(
+            String.localizedStringWithFormat(
+                String(localized: "question_number"),
+                gameEngine.currentQuestionIndex + 1
+            )
+        )
         .navigationBarTitleDisplayMode(.inline)
         .onReceive(timer) { _ in
             onTimerPublishedValueAction()

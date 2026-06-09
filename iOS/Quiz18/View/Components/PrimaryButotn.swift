@@ -3,7 +3,7 @@ import SwiftUI
 struct PrimaryButton: View {
     @State private var isPressed = false
     
-    let title: String
+    let title: LocalizedStringKey
     let action: () -> Void
     
     var body: some View {
@@ -38,7 +38,7 @@ struct PrimaryButton: View {
         )
     }
     
-    init(_ title: String, action: @escaping () -> Void) {
+    init(_ title: LocalizedStringKey, action: @escaping () -> Void) {
         self.title = title
         self.action = action
     }

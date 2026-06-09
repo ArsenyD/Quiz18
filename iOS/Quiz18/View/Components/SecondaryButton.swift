@@ -3,7 +3,7 @@ import SwiftUI
 struct SecondaryButton: View {
     @State private var isPressed = false
     
-    var title: String
+    var title: LocalizedStringKey
     var action: () -> Void
 
     var body: some View {
@@ -34,7 +34,7 @@ struct SecondaryButton: View {
         )
     }
     
-    init(_ title: String, action: @escaping () -> Void) {
+    init(_ title: LocalizedStringKey, action: @escaping () -> Void) {
         self.title = title
         self.action = action
     }
